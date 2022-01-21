@@ -16,4 +16,4 @@
 * :white_check_mark: __оптимизация__
 * :white_check_mark: __адаптивность__
 --------------------------
-https://aleksanderrezvan.github.io/travel/
+https://aleksanderrezvan.github.io/RussianTravel/
