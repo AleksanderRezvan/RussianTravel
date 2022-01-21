@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+
+    margin: 0 100px;
+}
+
+/* media 1024px */
+@media (max-width: 1024px) {
+    .container {
+        margin: 0;
+    }
+}

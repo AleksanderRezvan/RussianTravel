@@ -1,0 +1,11 @@
+@media (max-width: 750px) {
+    .footer__item {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__item {
+        margin-bottom: 32px;
+    }
+}

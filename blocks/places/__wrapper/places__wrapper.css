@@ -1,0 +1,15 @@
+.places__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    align-self: flex-end;
+}
+
+@media (max-width: 320px) {
+    .places__wrapper {
+        align-self: flex-start;
+
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

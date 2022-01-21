@@ -1,0 +1,35 @@
+.inner-box {
+    display: flex;
+    column-gap: 40px;
+
+    border: 1px solid red;
+}
+
+@media (max-width: 1024px) {
+    .inner-box {
+        column-gap: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .inner-box {
+        column-gap: 28px;
+    }
+}
+
+@media (max-width: 640px) {
+    .inner-box {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+}
+
+@media (max-width: 320px) {
+    .inner-box {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 320px;
+    }
+}
